@@ -15,5 +15,5 @@ export const useMenu = () => {
         setMenu(menu === "hidden" ? "" : "hidden");
     };
 
-    return { showMenu}
+    return { showMenu }
 }

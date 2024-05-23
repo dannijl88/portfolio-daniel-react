@@ -2,7 +2,7 @@ import React from "react";
 
 export const Contacto = () => {
   return (
-    <div className="w-11/12 mx-auto my-40 md:w-96 p-4 md:mx-auto rounded-xl bg-[#192640] dark:bg-white dark:shadow-lg">
+    <div className="w-11/12 mx-auto my-40 md:w-96 p-4 md:mx-auto rounded-xl bg-secondary dark:bg-white dark:shadow-lg">
       <h2
         id="contacto"
         className="text-center text-white dark:text-slate-700 text-3xl"

@@ -13,7 +13,7 @@ export const TarjetaProyecto = ({
 }) => {
   return (
     <article className="w-11/12 md:w-3/12 m-auto flex flex-wrap gap-10">
-      <div className="w-80 p-4 border-2 bg-[#111827] border-indigo-500 dark:border-none dark:shadow-xl rounded-xl overflow-hidden dark:bg-slate-200">
+      <div className="w-80 p-4 border-2 bg-primary border-indigo-500 dark:border-none dark:shadow-xl rounded-xl overflow-hidden dark:bg-slate-200">
         <a href={enlace}>
           <img
             className="w-full h-[225px] border-2 dark:border-none hover:cursor-pointer border-indigo-500 rounded-md"

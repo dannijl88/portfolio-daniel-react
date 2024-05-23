@@ -13,7 +13,7 @@ export const Header = () => {
     <header className="md:h-screen">
       <nav
         id="inicio"
-        className="flex items-center justify-between flex-wrap bg-[#192640] dark:bg-white shadow-md p-6"
+        className="flex items-center justify-between flex-wrap bg-secondary dark:bg-white shadow-md p-6"
       >
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <p className="text-4xl font-bold text-white dark:text-slate-700">

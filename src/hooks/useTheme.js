@@ -16,5 +16,5 @@ export const useTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
     };
     
-    return { theme, changeTheme };
+    return { changeTheme };
 }

@@ -5,7 +5,7 @@ import { Proyectos } from "./components/Proyectos";
 
 function App() {
   return (
-    <div className="bg-[#111827] dark:bg-slate-200 font-[Poppins]">
+    <div className="bg-primary dark:bg-slate-200 font-[Poppins]">
       <Header />
       <main>
         <Proyectos />

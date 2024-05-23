@@ -16,7 +16,7 @@ import { TarjetaProyecto } from "./TarjetaProyecto";
 
 export const Proyectos = () => {
   return (
-    <section className="bg-[#192640] dark:bg-white flex flex-wrap justify-center px-10 pb-10">
+    <section className="bg-secondary dark:bg-white flex flex-wrap justify-center px-10 pb-10">
       <div>
         <div>
           <h3
