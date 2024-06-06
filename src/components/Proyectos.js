@@ -7,11 +7,13 @@ import logoTailwind from "../assets/svg/tailwind.svg";
 import logoWordpress from "../assets/img/Wordpress.png";
 import logoGit from "../assets/svg/git.svg";
 import logoGitHub from "../assets/svg/github.svg";
+import logoTypescript from "../assets/svg/Typescript_logo_2020.svg.png";
 import fotoMedicina from "../assets/img/medicinatradicionalchina.webp";
 import fotoMedicinaReact from "../assets/img/medicina-react.webp";
 import fotoResumenes from "../assets/img/proyecto_resumenes.webp";
 import fotoGlitter from "../assets/img/foto-glitter.webp";
 import fotoClase from "../assets/img/proyectoclase.webp";
+import fotoClima from "../assets/img/app-clima.webp";
 import { TarjetaProyecto } from "./TarjetaProyecto";
 
 export const Proyectos = () => {
@@ -57,6 +59,16 @@ export const Proyectos = () => {
               icono3={logoTailwind}
             />
             <TarjetaProyecto
+              foto={fotoClima}
+              titulo="App Clima React"
+              texto="Aplicación del tiempo construida con React, tailwind y typescript."
+              enlace="#"
+              icono={logoHtml}
+              icono1={logoCss}
+              icono2={logoTypescript}
+              icono3={logoGit}
+            />
+            <TarjetaProyecto
               foto={fotoResumenes}
               titulo="Web Resúmenes"
               texto="Web de resúmenes de libros construida con HTML, CSS y JavaScript."
@@ -76,6 +88,7 @@ export const Proyectos = () => {
               icono2={logoJavaScript}
               icono3={logoGit}
             />
+            
           </div>
         </div>
         <h2 className="text-white text-2xl text-center mt-20 mb-6 dark:text-slate-700">
@@ -100,6 +113,10 @@ export const Proyectos = () => {
           <div>
             <img className="w-11 h-12 select-none m-auto" src={logoReact}></img>
             <span className="text-white ml-1 dark:text-slate-700">React</span>
+          </div>
+          <div>
+            <img className="w-11 h-12 select-none m-auto" src={logoTypescript}></img>
+            <span className="text-white ml-1 dark:text-slate-700">Typescript</span>
           </div>
           <div>
             <img
