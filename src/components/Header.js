@@ -10,10 +10,10 @@ export const Header = () => {
   const { showMenu } = useMenu();
 
   return (
-    <header className="md:h-screen">
+    <header className="lg:h-screen max-w-[1500px] m-auto mb-20">
       <nav
         id="inicio"
-        className="flex items-center justify-between flex-wrap bg-secondary dark:bg-white shadow-md p-6"
+        className="flex items-center justify-between flex-wrap bg-secondary dark:bg-white p-6 max-w-[1500px] m-auto mb-20 md:mb-64 rounded-b-xl"
       >
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <p className="text-4xl font-bold text-white dark:text-slate-700">
@@ -36,7 +36,9 @@ export const Header = () => {
             </svg>
           </button>
         </div>
+        
         <div id="menu" className="w-full block flex-grow lg:flex lg:w-auto">
+          
           <div className="text-sm lg:flex-grow text-center lg:text-right lg:mr-20">
             <a
               href="#inicio"
@@ -52,6 +54,7 @@ export const Header = () => {
             >
               Proyectos
             </a>
+            
             <a
               href="#contacto"
               className="block mt-4 lg:inline-block lg:mt-0 text-2xl text-white dark:text-slate-700 dark:hover:text-indigo-500 hover:text-indigo-500 transition-all duration-300"
@@ -59,7 +62,7 @@ export const Header = () => {
             >
               Contacto
             </a>
-          </div>
+          </div> 
         </div>
       </nav>
 

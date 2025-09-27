@@ -3,7 +3,7 @@ import arrowUp from "../assets/svg/up-arrow-svgrepo-com.svg";
 
 export const Footer = () => {
   return (
-    <footer className="bg-secondary dark:bg-slate-100 flex flex-wrap flex-col md:flex-row h-20 border-t-2 border-indigo-500 flex items-center justify-evenly mt-10">
+    <footer className="bg-secondary max-w-[1500px] m-auto dark:bg-slate-100 flex flex-wrap flex-col md:flex-row h-20 rounded-t-xl flex items-center justify-evenly mt-10">
       <p className=" flex text-center text-white dark:text-slate-700 md:text-2xl">
         Developed by DanielJuan &copy;
       </p>

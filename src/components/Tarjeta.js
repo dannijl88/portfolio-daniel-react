@@ -1,28 +1,32 @@
 import React from "react";
-import fotodani from "../assets/img/foto-dani-recortada.webp";
-import curriculum from "../assets/pdf/curriculum-daniel.pdf";
+import fotodani from "../assets/img/fotoyohd.jpg";
+import curriculum from "../assets/pdf/curriculum_web.pdf";
+import { Typewriter } from 'react-simple-typewriter';
 
 export const Tarjeta = () => {
   return (
     <div className="mx-auto flex flex-row flex-wrap md:gap-20 w-4/5 mt-10 md:mt-40 justify-center">
       <img
-        className="w-9/12 md:w-80 mb-4 rounded-xl border-2 border-indigo-500"
+        className="w-9/12 md:w-96 mb-4 rounded-xl border-2 border-indigo-500"
         src={fotodani}
         alt="Foto de Daniel"
       ></img>
       <div className="max-w-md p-4 text-justify">
-        <h1 className="text-3xl text-white dark:text-slate-700">
-          Hola, soy Daniel Juan
+        
+        <h1 className="text-3xl sm:text-4xl md:text-5xl text-indigo-500 font-semibold my-4">
+          <Typewriter
+            words={['Hola, soy Daniel', 'Desarrollador Web']}
+            loop={0}              // 0 = infinito
+            cursor
+            cursorStyle="|"
+            typeSpeed={100}       // velocidad de escritura
+            deleteSpeed={50}      // velocidad de borrado
+            delaySpeed={1500}     // pausa antes de borrar
+          />
         </h1>
-        <h2 className="text-5xl text-indigo-500 font-semibold my-2">
-          Frontend Developer
-        </h2>
-        <p className="text-1xl text-white dark:text-slate-700">
-          Me complace darte la bienvenida a mi portfolio. Soy un apasionado del
-          desarrollo web con un deseo innato de crear, aprender y compartir. Mi
-          viaje en el desarrollo web comenzó hace 2 años y desde entonces he
-          tenido el privilegio de trabajar en una amplia variedad de proyectos
-          emocionantes y desafiantes.
+        <p className="text-xl md:text-2xl text-white dark:text-slate-700">
+          Me complace darte la bienvenida a mi portfolio. Me gusta crear páginas que no solo funcionen, sino que transmitan claridad y estilo. Cada proyecto es para mí un reto y una oportunidad de mejorar, buscando siempre un equilibrio entre lo técnico y lo creativo.
+          Aquí encontrarás una muestra de lo que hago, con trabajos que tienen su propia personalidad y la intención constante de seguir avanzando en cada nueva idea.
         </p>
         <div className="flex justify-center gap-3 mt-4">
           <a

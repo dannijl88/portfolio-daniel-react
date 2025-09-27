@@ -3,36 +3,94 @@ import logoHtml from "../assets/svg/html.svg";
 import logoCss from "../assets/svg/css.svg";
 import logoJavaScript from "../assets/svg/javascript.svg";
 import logoReact from "../assets/svg/react.svg";
+import logoPhp from "../assets/img/php.png";
+import logoSql from "../assets/img/mysql.webp";
+import logoJava from "../assets/img/java.png";
 import logoTailwind from "../assets/svg/tailwind.svg";
 import logoWordpress from "../assets/img/Wordpress.png";
 import logoGit from "../assets/svg/git.svg";
 import logoGitHub from "../assets/svg/github.svg";
 import logoTypescript from "../assets/svg/Typescript_logo_2020.svg.png";
-import fotoMedicina from "../assets/img/medicinatradicionalchina.webp";
+import fotoLobeya from "../assets/img/fotolobeya.png";
 import fotoMedicinaReact from "../assets/img/medicina-react.webp";
-import fotoResumenes from "../assets/img/proyecto_resumenes.webp";
+import fotoCodelen from "../assets/img/Captura de pantalla 2025-09-27 114303.png";
 import fotoGlitter from "../assets/img/foto-glitter.webp";
-import fotoClase from "../assets/img/proyectoclase.webp";
+import fotoHappy from "../assets/img/Captura de pantalla 2025-09-27 114418.png";
+import fotoCalculadora from "../assets/img/calculadora.png";
+import fotoTienda from "../assets/img/tiendaonline.png";
 import fotoClima from "../assets/img/app-clima.webp";
 import { TarjetaProyecto } from "./TarjetaProyecto";
 
 export const Proyectos = () => {
   return (
-    <section className="bg-secondary dark:bg-white flex flex-wrap justify-center px-10 pb-10">
+    <section className="bg-secondary max-w-[1500px] m-auto dark:bg-white flex flex-wrap justify-center px-10 pb-10 rounded-xl">
       <div>
         <div>
           <h3
             id="proyectos"
-            className="text-white text-center text-3xl font-semibold mt-20 dark:text-slate-700"
+            className="text-white text-center text-3xl md:text-5xl font-semibold mt-20 dark:text-slate-700"
           >
             PROYECTOS
           </h3>
-          <div className="flex flex-wrap gap-10 mt-10 px-4">
+          <div className="flex flex-wrap gap-10 mt-10 px-4 m-auto">
             <TarjetaProyecto
-              foto={fotoMedicina}
-              titulo="Medicina Tradicional China"
-              texto="Web de negocio de mi localidad sobre terapias de medicina china construida con Wordpress."
-              enlace="https://www.medicinatradicionalchina.net"
+              foto={fotoCodelen}
+              titulo="Codelen"
+              texto="Proyecto más completo en WordPress donde integré funcionalidades personalizadas con JavaScript. Destaca por un diseño más elaborado y dinámico."
+              enlace="https://codelen.es/"
+              icono={logoHtml}
+              icono1={logoCss}
+              icono2={logoJavaScript}
+              icono3={logoWordpress}
+            />
+            <TarjetaProyecto
+              foto={fotoClima}
+              titulo="App Clima React"
+              texto="Aplicación web interactiva que muestra información meteorológica en tiempo real. Creada con React, Tailwind y TypeScript para practicar componentes reutilizables y diseño responsive."
+              enlace="https://github.com/dannijl88/app-clima-react"
+              enlaceGithub="https://github.com/dannijl88/app-clima-react"
+              icono={logoHtml}
+              icono1={logoCss}
+              icono2={logoTypescript}
+              icono3={logoReact}
+            />
+            <TarjetaProyecto
+              foto={fotoCalculadora}
+              titulo="Calculadora JS"
+              texto="Calculadora interactiva desarrollada en JavaScript que permite realizar operaciones básicas con resultados inmediatos. Incluye manejo de eventos y actualización dinámica de la pantalla."
+              enlace="https://calculadora-js.medicinatradicionalchina.net/"
+              enlaceGithub="https://github.com/dannijl88/Calculadora-JavaScript"
+              icono={logoHtml}
+              icono1={logoCss}
+              icono2={logoJavaScript}
+            />
+            <TarjetaProyecto
+              foto={fotoTienda}
+              titulo="Tienda online PHP"
+              texto="Tienda online realizada siguiendo el curso de Víctor Robles, implementando PHP y MySQL con el patrón MVC. Permite gestionar productos, usuarios y pedidos, y sirve para aprender la estructura y organización de proyectos en MVC."
+              enlace="https://github.com/dannijl88/app-clima-react"
+              enlaceGithub="https://github.com/dannijl88/app-clima-react"
+              icono={logoHtml}
+              icono1={logoCss}
+              icono2={logoPhp}
+              icono3={logoSql}
+            />
+            <TarjetaProyecto
+              foto={fotoMedicinaReact}
+              titulo="Medicina China"
+              texto="Versión desarrollada en React y Tailwind de un proyecto previamente hecho en WordPress. El objetivo fue trasladar la estructura a un entorno más flexible y moderno, mejorando rendimiento y personalización."
+              enlace="https://mtc-react.pruebasdani.online/"
+              enlaceGithub="https://github.com/dannijl88/medicina-tradicional-china"
+              icono={logoHtml}
+              icono1={logoCss}
+              icono2={logoReact}
+              icono3={logoTailwind}
+            />
+            <TarjetaProyecto
+              foto={fotoLobeya}
+              titulo="Lobeya"
+              texto="Página web para una empresa de reformas, desarrollada en WordPress con un diseño sencillo y funcional para mostrar servicios y facilitar el contacto de clientes."
+              enlace="https://lobeya.es"
               icono={logoHtml}
               icono1={logoCss}
               icono2={logoJavaScript}
@@ -41,7 +99,7 @@ export const Proyectos = () => {
             <TarjetaProyecto
               foto={fotoGlitter}
               titulo="Tuli Glitter Bar"
-              texto="web de servicios de glitter bar para bodas, construida con Wordpress."
+              texto="Página web en WordPress para un servicio de glitter bar en bodas y eventos, con un diseño visual atractivo y orientado a transmitir la esencia creativa del servicio."
               enlace="https://www.tuli-beauty-glam.es"
               icono={logoHtml}
               icono1={logoCss}
@@ -49,49 +107,19 @@ export const Proyectos = () => {
               icono3={logoWordpress}
             />
             <TarjetaProyecto
-              foto={fotoMedicinaReact}
-              titulo="Medicina China con React"
-              texto="La misma web de Medicina China construida con React para practicar con el Router, estados, props etc."
-              enlace="https://mtc-react.pruebasdani.online/"
-              icono={logoHtml}
-              icono1={logoCss}
-              icono2={logoReact}
-              icono3={logoTailwind}
-            />
-            <TarjetaProyecto
-              foto={fotoClima}
-              titulo="App Clima React"
-              texto="Aplicación del tiempo construida con React, tailwind y typescript."
-              enlace="#"
-              icono={logoHtml}
-              icono1={logoCss}
-              icono2={logoTypescript}
-              icono3={logoGit}
-            />
-            <TarjetaProyecto
-              foto={fotoResumenes}
-              titulo="Web Resúmenes"
-              texto="Web de resúmenes de libros construida con HTML, CSS y JavaScript."
+              foto={fotoHappy}
+              titulo="Happy Snoozers"
+              texto="Sitio web en WordPress con enfoque en la presentación de contenidos de forma clara y amigable, priorizando la facilidad de navegación."
               enlace="#"
               icono={logoHtml}
               icono1={logoCss}
               icono2={logoJavaScript}
-              icono3={logoGit}
-            />
-            <TarjetaProyecto
-              foto={fotoClase}
-              titulo="Proyecto del curso"
-              texto="Proyecto de curso sobre web de astronomia construido con HTML, CSS, Y JavaScript."
-              enlace="#"
-              icono={logoHtml}
-              icono1={logoCss}
-              icono2={logoJavaScript}
-              icono3={logoGit}
+              icono3={logoWordpress}
             />
             
           </div>
         </div>
-        <h2 className="text-white text-2xl text-center mt-20 mb-6 dark:text-slate-700">
+        <h2 className="text-white text-3xl md:text-5xl text-center mt-20 mb-6 dark:text-slate-700">
           TECNOLOGIAS
         </h2>
         <div className="flex gap-12 flex-wrap justify-center mb-20 p-6 dark:shadow-xl">
@@ -113,6 +141,18 @@ export const Proyectos = () => {
           <div>
             <img className="w-11 h-12 select-none m-auto" src={logoReact}></img>
             <span className="text-white ml-1 dark:text-slate-700">React</span>
+          </div>
+          <div>
+            <img className="w-11 h-12 select-none m-auto" src={logoJava}></img>
+            <span className="text-white ml-1 dark:text-slate-700">Java</span>
+          </div>
+          <div>
+            <img className="w-11 h-12 select-none m-auto" src={logoPhp}></img>
+            <span className="text-white ml-1 dark:text-slate-700">PHP</span>
+          </div>
+          <div>
+            <img className="w-11 h-12 select-none m-auto" src={logoSql}></img>
+            <span className="text-white ml-1 dark:text-slate-700">MySQL</span>
           </div>
           <div>
             <img className="w-11 h-12 select-none m-auto" src={logoTypescript}></img>
