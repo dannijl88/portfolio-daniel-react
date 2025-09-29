@@ -47,7 +47,7 @@ export const Proyectos = () => {
               foto={fotoClima}
               titulo="App Clima React"
               texto="Aplicación web interactiva que muestra información meteorológica en tiempo real. Creada con React, Tailwind y TypeScript para practicar componentes reutilizables y diseño responsive."
-              enlace="https://github.com/dannijl88/app-clima-react"
+              enlace="https://apptiempo.medicinatradicionalchina.net/"
               enlaceGithub="https://github.com/dannijl88/app-clima-react"
               icono={logoHtml}
               icono1={logoCss}
@@ -68,8 +68,8 @@ export const Proyectos = () => {
               foto={fotoTienda}
               titulo="Tienda online PHP"
               texto="Tienda online realizada siguiendo el curso de Víctor Robles, implementando PHP y MySQL con el patrón MVC. Permite gestionar productos, usuarios y pedidos, y sirve para aprender la estructura y organización de proyectos en MVC."
-              enlace="https://github.com/dannijl88/app-clima-react"
-              enlaceGithub="https://github.com/dannijl88/app-clima-react"
+              enlace="https://github.com/dannijl88/Tienda-online-PHP"
+              enlaceGithub="https://github.com/dannijl88/Tienda-online-PHP"
               icono={logoHtml}
               icono1={logoCss}
               icono2={logoPhp}
@@ -79,7 +79,7 @@ export const Proyectos = () => {
               foto={fotoMedicinaReact}
               titulo="Medicina China"
               texto="Versión desarrollada en React y Tailwind de un proyecto previamente hecho en WordPress. El objetivo fue trasladar la estructura a un entorno más flexible y moderno, mejorando rendimiento y personalización."
-              enlace="https://mtc-react.pruebasdani.online/"
+              enlace="https://github.com/dannijl88/medicina-tradicional-china"
               enlaceGithub="https://github.com/dannijl88/medicina-tradicional-china"
               icono={logoHtml}
               icono1={logoCss}
@@ -110,7 +110,7 @@ export const Proyectos = () => {
               foto={fotoHappy}
               titulo="Happy Snoozers"
               texto="Sitio web en WordPress con enfoque en la presentación de contenidos de forma clara y amigable, priorizando la facilidad de navegación."
-              enlace="#"
+              enlace="https://happy-snoozers.com/"
               icono={logoHtml}
               icono1={logoCss}
               icono2={logoJavaScript}
