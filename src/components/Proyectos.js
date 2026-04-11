@@ -19,6 +19,9 @@ import fotoHappy from "../assets/img/Captura de pantalla 2025-09-27 114418.png";
 import fotoCalculadora from "../assets/img/calculadora.png";
 import fotoTienda from "../assets/img/tiendaonline.png";
 import fotoClima from "../assets/img/app-clima.webp";
+import fotoRecetas from "../assets/img/app-recetas.jpg"
+import fotoPeliculas from "../assets/img/app-peliculas.png"
+import logoSpring from "../assets/img/logo-spring.png"
 import { TarjetaProyecto } from "./TarjetaProyecto";
 
 export const Proyectos = () => {
@@ -34,14 +37,26 @@ export const Proyectos = () => {
           </h3>
           <div className="flex flex-wrap gap-10 mt-10 px-4 m-auto">
             <TarjetaProyecto
-              foto={fotoCodelen}
-              titulo="Codelen"
-              texto="Proyecto más completo en WordPress donde integré funcionalidades personalizadas con JavaScript. Destaca por un diseño más elaborado y dinámico."
-              enlace="https://codelen.es/"
-              icono={logoHtml}
-              icono1={logoCss}
-              icono2={logoJavaScript}
-              icono3={logoWordpress}
+              foto={fotoRecetas}
+              titulo="DevRecipes"
+              texto="Plataforma completa de gestión de recetas donde los usuarios pueden registrarse, iniciar sesión, publicar sus propias recetas y explorar las de otros. Todo con autenticación segura mediante JWT para que cada usuario solo pueda editar y eliminar sus propias recetas."
+              enlace="https://github.com/dannijl88/recetas-app"
+              enlaceGithub="https://github.com/dannijl88/recetas-app"
+              icono={logoSpring}
+              icono1={logoTailwind}
+              icono2={logoReact}
+              icono3={logoJava}
+            />
+            <TarjetaProyecto
+              foto={fotoPeliculas}
+              titulo="DevMovies"
+              texto="Plataforma de películas que consume la API de TMDB para mostrar información actualizada en tiempo real. El backend actúa como intermediario entre el frontend y la API externa, exponiendo sus propios endpoints REST."
+              enlace="https://github.com/dannijl88/movies-app"
+              enlaceGithub="https://github.com/dannijl88/movies-app"
+              icono={logoSpring}
+              icono1={logoTailwind}
+              icono2={logoReact}
+              icono3={logoJava}
             />
             <TarjetaProyecto
               foto={fotoClima}
@@ -75,6 +90,7 @@ export const Proyectos = () => {
               icono2={logoPhp}
               icono3={logoSql}
             />
+            
             <TarjetaProyecto
               foto={fotoMedicinaReact}
               titulo="Medicina China"
@@ -85,6 +101,16 @@ export const Proyectos = () => {
               icono1={logoCss}
               icono2={logoReact}
               icono3={logoTailwind}
+            />
+            <TarjetaProyecto
+              foto={fotoCodelen}
+              titulo="Codelen"
+              texto="Proyecto más completo en WordPress donde integré funcionalidades personalizadas con JavaScript. Destaca por un diseño más elaborado y dinámico."
+              enlace="https://codelen.es/"
+              icono={logoHtml}
+              icono1={logoCss}
+              icono2={logoJavaScript}
+              icono3={logoWordpress}
             />
             <TarjetaProyecto
               foto={fotoLobeya}
@@ -147,8 +173,8 @@ export const Proyectos = () => {
             <span className="text-white ml-1 dark:text-slate-700">Java</span>
           </div>
           <div>
-            <img className="w-11 h-12 select-none m-auto" src={logoPhp}></img>
-            <span className="text-white ml-1 dark:text-slate-700">PHP</span>
+            <img className="w-11 h-12 select-none m-auto" src={logoSpring}></img>
+            <span className="text-white ml-1 dark:text-slate-700">Spring Boot</span>
           </div>
           <div>
             <img className="w-11 h-12 select-none m-auto" src={logoSql}></img>
@@ -165,13 +191,7 @@ export const Proyectos = () => {
             ></img>
             <span className="text-white dark:text-slate-700">Tailwind</span>
           </div>
-          <div>
-            <img
-              className="w-11 h-12 select-none m-auto"
-              src={logoWordpress}
-            ></img>
-            <span className="text-white dark:text-slate-700">Wordpress</span>
-          </div>
+          
           <div>
             <img className="w-11 h-12 select-none m-auto" src={logoGit}></img>
             <span className="text-white ml-2 dark:text-slate-700">Git</span>

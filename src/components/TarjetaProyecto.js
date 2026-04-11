@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 import logoGitHub from "../assets/svg/github.svg";
 
@@ -11,7 +10,7 @@ export const TarjetaProyecto = ({
   icono,
   icono1,
   icono2,
-  icono3,
+  icono3
 }) => {
   return (
     <article className="w-full md:w-[400px] m-auto flex flex-wrap">

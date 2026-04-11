@@ -1,6 +1,5 @@
-import React from "react";
 import fotodani from "../assets/img/fotoyohd.jpg";
-import curriculum from "../assets/pdf/curriculum_web.pdf";
+import curriculum from "../assets/pdf/curriculum-daniel-web.pdf";
 import { Typewriter } from 'react-simple-typewriter';
 
 export const Tarjeta = () => {
