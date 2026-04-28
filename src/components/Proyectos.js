@@ -21,6 +21,7 @@ import fotoTienda from "../assets/img/tiendaonline.png";
 import fotoClima from "../assets/img/app-clima.webp";
 import fotoRecetas from "../assets/img/app-recetas.jpg"
 import fotoPeliculas from "../assets/img/app-peliculas.png"
+import fotoTareas from "../assets/img/taskflow.png"
 import logoSpring from "../assets/img/logo-spring.png"
 import { TarjetaProyecto } from "./TarjetaProyecto";
 
@@ -36,6 +37,17 @@ export const Proyectos = () => {
             PROYECTOS
           </h3>
           <div className="flex flex-wrap gap-10 mt-10 px-4 m-auto">
+            <TarjetaProyecto
+              foto={fotoTareas}
+              titulo="TaskFlow"
+              texto="Aplicación de gestión de tareas desarrollada con React y TypeScript. Incluye autenticación simulada con rutas protegidas, CRUD completo con edición inline, estado global mediante Context API y hooks personalizados, filtrado de tareas por estado y tests con Vitest y React Testing Library. Los estilos están escritos con CSS puro siguiendo la metodología BEM."
+              enlace="https://task-flow-sooty-pi.vercel.app/login"
+              enlaceGithub="https://github.com/dannijl88/taskflow"
+              icono={logoReact}
+              icono1={logoTypescript}
+              icono2={logoCss}
+              icono3={logoGit}
+            />
             <TarjetaProyecto
               foto={fotoRecetas}
               titulo="DevRecipes"
