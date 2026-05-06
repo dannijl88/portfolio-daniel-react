@@ -22,6 +22,7 @@ import fotoClima from "../assets/img/app-clima.webp";
 import fotoRecetas from "../assets/img/app-recetas.jpg"
 import fotoPeliculas from "../assets/img/app-peliculas.png"
 import fotoTareas from "../assets/img/taskflow.png"
+import fotoSpace from "../assets/img/space-explorer.png"
 import logoSpring from "../assets/img/logo-spring.png"
 import { TarjetaProyecto } from "./TarjetaProyecto";
 
@@ -38,9 +39,20 @@ export const Proyectos = () => {
           </h3>
           <div className="flex flex-wrap gap-10 mt-10 px-4 m-auto">
             <TarjetaProyecto
+              foto={fotoSpace}
+              titulo="SpaceExplorer"
+              texto="App de exploración espacial que consume APIs reales de la NASA. Muestra la imagen astronómica del día, fotos del satélite DSCOVR, asteroides cercanos a la Tierra y una galería de imágenes históricas con buscador."
+              enlace="https://space-explorer-livid.vercel.app"
+              enlaceGithub="https://github.com/dannijl88/space-explorer"
+              icono={logoReact}
+              icono1={logoTypescript}
+              icono2={logoCss}
+              icono3={logoGit}
+            />
+            <TarjetaProyecto
               foto={fotoTareas}
               titulo="TaskFlow"
-              texto="Aplicación de gestión de tareas desarrollada con React y TypeScript. Incluye autenticación simulada con rutas protegidas, CRUD completo con edición inline, estado global mediante Context API y hooks personalizados, filtrado de tareas por estado y tests con Vitest y React Testing Library. Los estilos están escritos con CSS puro siguiendo la metodología BEM."
+              texto="Aplicación de gestión de tareas desarrollada con React y TypeScript. Incluye autenticación simulada con rutas protegidas, CRUD completo con edición inline, estado global mediante Context API y hooks personalizados, filtrado de tareas por estado y tests con Vitest y React Testing Library."
               enlace="https://task-flow-sooty-pi.vercel.app/login"
               enlaceGithub="https://github.com/dannijl88/taskflow"
               icono={logoReact}
