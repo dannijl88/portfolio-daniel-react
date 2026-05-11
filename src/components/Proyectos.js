@@ -28,7 +28,7 @@ import { TarjetaProyecto } from "./TarjetaProyecto";
 
 export const Proyectos = () => {
   return (
-    <section className="bg-secondary max-w-[1500px] m-auto dark:bg-white flex flex-wrap justify-center px-10 pb-10 rounded-xl">
+    <section className="bg-secondary max-w-[1500px] m-auto dark:bg-white flex flex-wrap justify-center md:px-2 pb-10 rounded-xl">
       <div>
         <div>
           <h3

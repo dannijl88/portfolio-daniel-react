@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 export const Tarjeta = () => {
   return (
-    <div className="mx-auto flex flex-row flex-wrap md:gap-20 w-4/5 mt-10 md:mt-40 justify-center">
+    <div className="mx-auto flex flex-row flex-wrap md:gap-20 w-full mt-10 md:mt-40 justify-center">
       <img
         className="w-9/12 md:w-96 mb-4 rounded-xl border-2 border-indigo-500"
         src={fotodani}
