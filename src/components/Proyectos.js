@@ -53,7 +53,7 @@ export const Proyectos = () => {
               foto={fotoTareas}
               titulo="TaskFlow"
               texto="Aplicación de gestión de tareas desarrollada con React y TypeScript. Incluye autenticación simulada con rutas protegidas, CRUD completo con edición inline, estado global mediante Context API y hooks personalizados, filtrado de tareas por estado y tests con Vitest y React Testing Library."
-              enlace="https://task-flow-sooty-pi.vercel.app/login"
+              enlace="https://task-flow-sooty-pi.vercel.app"
               enlaceGithub="https://github.com/dannijl88/taskflow"
               icono={logoReact}
               icono1={logoTypescript}
@@ -64,7 +64,7 @@ export const Proyectos = () => {
               foto={fotoRecetas}
               titulo="DevRecipes"
               texto="Plataforma completa de gestión de recetas donde los usuarios pueden registrarse, iniciar sesión, publicar sus propias recetas y explorar las de otros. Todo con autenticación segura mediante JWT para que cada usuario solo pueda editar y eliminar sus propias recetas."
-              enlace="https://github.com/dannijl88/recetas-app"
+              enlace="https://recetas-app-virid.vercel.app"
               enlaceGithub="https://github.com/dannijl88/recetas-app"
               icono={logoSpring}
               icono1={logoTailwind}
@@ -86,7 +86,7 @@ export const Proyectos = () => {
               foto={fotoClima}
               titulo="App Clima React"
               texto="Aplicación web interactiva que muestra información meteorológica en tiempo real. Creada con React, Tailwind y TypeScript para practicar componentes reutilizables y diseño responsive."
-              enlace="https://apptiempo.medicinatradicionalchina.net/"
+              enlace="https://apptiempo.danijuan.com/"
               enlaceGithub="https://github.com/dannijl88/app-clima-react"
               icono={logoHtml}
               icono1={logoCss}
@@ -97,7 +97,7 @@ export const Proyectos = () => {
               foto={fotoCalculadora}
               titulo="Calculadora JS"
               texto="Calculadora interactiva desarrollada en JavaScript que permite realizar operaciones básicas con resultados inmediatos. Incluye manejo de eventos y actualización dinámica de la pantalla."
-              enlace="https://calculadora-js.medicinatradicionalchina.net/"
+              enlace="https://calculadora.danijuan.com/"
               enlaceGithub="https://github.com/dannijl88/Calculadora-JavaScript"
               icono={logoHtml}
               icono1={logoCss}

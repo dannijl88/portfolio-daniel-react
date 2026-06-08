@@ -35,9 +35,10 @@ export const TarjetaProyecto = ({
           <img className="w-6" src={icono2}></img>
           <img className="w-6" src={icono3}></img>
         </div>
-        <div className="flex justify-center">
-          <a href={enlaceGithub} className="text-lg flex gap-2 items-center mt-4 text-white dark:text-slate-700 hover:cursor-pointer hover:text-indigo-500 ">Ver código
-          <img src={logoGitHub} className="w-8"></img>
+        <div className="flex justify-center gap-6">
+          <a href={enlace} target="__blank"  className="w-24 p-2 rounded-md bg-indigo-500 text-lg mt-4 text-white dark:text-slate-700 hover:cursor-pointer text-center">Demo
+          </a>
+          <a href={enlaceGithub} target="__blank" className="w-24 p-2 rounded-md bg-indigo-500 text-lg mt-4 text-white dark:text-slate-700 hover:cursor-pointer">Ver código
           </a>
         </div>
       </div>
